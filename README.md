@@ -1,5 +1,5 @@
 # Kinetochore-Particle-Tracker
-# ImageAnalysis
+
 
 
 ## Image Processing Methods to Automatically Track Intensity Changes In Submicron-sized Cellular Structures
@@ -11,27 +11,40 @@ Description for the notebook files and folders:
 
  |Name                        | Type         |Description
  |----------------------------|------------- |------------ 
- | functions.ipynb            | Notebook     |This file contains the functions that are used in this pipeline
- | Analysis-Method1.ipynb     | Notebook     |Measures PP1 intensity in CDKi and DMSO Cells,generates graphs and csv files for particles measurements 
- | Analysis-Method2.ipynb     | Notebook     |Measures Astrin intensity in WildType and Q1012,generates graphs and csv files for particles measurement 
- | graphs                     | folder       |generated graphs
- | Experiment Name            | folder       |Experiment folder.It has following subfolders. 
- | mask                       | folder       |tif images of masks
- | channel                    | folder       |tif images of the channel 
- | labelled _images           | folder       |generated and labelled images
- | AnalysisResults            | folder       |for Graphs and csvs
+ | functions-Method1.ipynb    | Notebook     |This file contains the functions that are used to analyse PP1,mKate2-Astrin CDK1i and DMSO dataset
+ | functions-Method2.ipynb    | Notebook     |This file contains the functions that are used to analyse Wildtype-Q1012 dataset
+ | Method1-PP1.ipynb          | Notebook     |Measures PP1 intensity in CDKi and DMSO cells and generates csv files for particles measurements 
+ | Method1-Astrin.ipynb       | Notebook     |Measures Astrin intensity in CDKi and DMSO cells and generates csv files for particles measurements 
+ | Method2-AstrinWT.ipynb     | Notebook     |Measures Astrin intensity in WildType and p.Q1012* and generates csv files for particles measurement 
+ | GraphAnalysis              | folder       |Contains generated and collated csv file
+ | data                       | folder       |Images folder. It contains the subfolders for each dataset.
+ | AnalysisResults            | folder       |for generated csv files and labelled images.
 
  
  
-    Folder Structure for experiments
+    Folder Structure for datasets
     .
-    ├── Experiment Name
-     ├── mask                  # mask images(.tif)
-     ├── pp1/channel           # channel images (.tif)
-     ├── labelled_images       # labelled and overlay images
+    ├── Control/Wildtype Folder
+     ├── Experiment name       #Name of the experient
+       ├── mask Channel          # mask images(.tif)
+       ├── Particle channel      # particle channel images (.tif)
+       
      
      Folder Structure for AnalysisResults
     .
-    ├── Experiment Name
-     ├── graphs                # to save the graphs
-     ├── csvs                  # for generated csvs
+    ├── Dataset Name
+     ├── mask_images                             # to save labelled mask channel images
+     ├── mask_raw_images                         # to save the mask channel images
+     ├── particle_images                         # to save labelled particle channel images
+     ├── particle_raw_images                     # to save the labelled particle channel images
+     ├── labelled_<name of the marker>_images    # to save labelled mask marker images. e.g. nuf2,cenpb
+     ├── abelled_<name of the protein>_images    # to save labelled protein particle images. e.g. Astrin,PP1
+     ├── csvs                                    # for generated csvs
+     
+     Folder Structure for GraphAnalysis
+    .
+    ├── Dataset Name
+     ├── Name of the dataset                     # Image dataset name. It contains all collated csvs
+    
+     
+     
