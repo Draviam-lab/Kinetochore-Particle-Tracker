@@ -26,8 +26,8 @@ Description for the notebook files and folders:
     .
     ├── Control/Wildtype Folder
      ├── Experiment name       #Name of the experient
-       ├── mask Channel          # mask images(.tif)
-       ├── Particle channel      # particle channel images (.tif)
+       ├── mask Channel          # Folder for mask images(.tif. The name of the folder is as per the mask signal)
+       ├── Particle channel      # folder for particle channel images (.tif. The name of the folder is as per the protein of interest)
        
      
      Folder Structure for AnalysisResults
@@ -43,8 +43,8 @@ Description for the notebook files and folders:
      
      Folder Structure for GraphAnalysis
     .
-    ├── Dataset Name
-     ├── Name of the dataset                     # Image dataset name. It contains all collated csvs
+    ├── Protein Name
+     ├── Image dataset                     # Image dataset name. It contains all collated csvs
     
      
      
