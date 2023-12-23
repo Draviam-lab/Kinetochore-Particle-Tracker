@@ -11,10 +11,7 @@ Description for the notebook files and folders:
 
  |Name                        | Type         |Description
  |----------------------------|------------- |------------ 
- | functions-Method1.ipynb    | Notebook     |This file contains the functions that are used to analyse PP1,mKate2-Astrin CDK1i and DMSO dataset
- | functions-Method2.ipynb    | Notebook     |This file contains the functions that are used to analyse Wildtype-Q1012 dataset
- | Method1-PP1.ipynb          | Notebook     |Measures PP1 intensity in CDKi and DMSO cells and generates csv files for particles measurements 
- | Method1-Astrin.ipynb       | Notebook     |Measures Astrin intensity in CDKi and DMSO cells and generates csv files for particles measurements 
+ | functions_AstrinWT.ipynb    | Notebook     |This file contains the functions that are used to analyse Wildtype-Q1012 dataset
  | Method2-AstrinWT.ipynb     | Notebook     |Measures Astrin intensity in WildType and p.Q1012* and generates csv files for particles measurement 
  | GraphAnalysis              | folder       |Contains generated and collated csv file
  | data                       | folder       |Images folder. It contains the subfolders for each dataset.
