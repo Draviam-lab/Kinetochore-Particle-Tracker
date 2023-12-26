@@ -12,7 +12,7 @@ Description for the notebook files and folders:
  |Name                        | Type         |Description
  |----------------------------|------------- |------------ 
  | functions_AstrinWT.ipynb    | Notebook     |This file contains the functions that are used to analyse Wildtype-Q1012 dataset
- | Method2-AstrinWT.ipynb     | Notebook     |Measures Astrin intensity in WildType and p.Q1012* and generates csv files for particles measurement 
+ | AstrinWT.ipynb     | Notebook     |Measures Astrin intensity in WildType and p.Q1012* and generates csv files for particles measurement 
  | GraphAnalysis              | folder       |Contains generated and collated csv file
  | data                       | folder       |Images folder. It contains the subfolders for each dataset.
  | AnalysisResults            | folder       |for generated csv files and labelled images.
